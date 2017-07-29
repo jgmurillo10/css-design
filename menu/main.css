@@ -78,5 +78,19 @@ p{
   text-align: justify;
   line-height: 1.8em;
 }
-a {
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: lightgrey;
+}
+.anchor {
+  /*solves the problem of fixed nav of 120px height*/
+  padding-top: 120px;
+  margin-top: -120px;
 }
