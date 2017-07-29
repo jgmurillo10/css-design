@@ -1,0 +1,55 @@
+/*fonts*/
+body {
+  color: #fff;
+}
+
+h1 {
+  font-family: Oswald, serif;
+  font-weight: 400;
+}
+p {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+/*classes*/
+.container{
+  background-color: rgba(0,0,0,0.9);
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.container2{
+  height: 50%;
+  width: 100%;
+  color: black;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 999;
+}
+/*buttons*/
+.button {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  color: black;
+  background-color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: rgba(0,0,0,1);
+  color:white;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
