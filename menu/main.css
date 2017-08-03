@@ -21,23 +21,52 @@ h1{
   width: 100%;
   height: 100px;
 }
+.menu-container-small {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+}
+/*transition menu*/
+nav, a, li, ul{
+  transition: all 0.5s;
+  -moz-transition: all 0.5s; /* Firefox 4 */
+  -webkit-transition: all 0.5s; /* Safari and Chrome */
+  -o-transition: all 0.5s; /* Opera */
+}
 .menu-list {
   width: 80%;
   height: 80%;
   margin: 10px auto;
   text-align: center;
   display: flex;
-
-
-
+}
+.menu-list-small {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
 }
 .menu-item {
   display: inline-block;
   padding: 20px;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 100;
   font-size: 2em;
   text-transform: uppercase;
+}
+.menu-item-small {
+  display: inline-block;
+  padding: 05px 20px;
+  font-family: Raleway, sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin: 10px auto;
 }
 .special {
   display: inline-block;
