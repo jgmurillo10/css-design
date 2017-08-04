@@ -9,7 +9,7 @@ body, html {
   color: white;
 }
 h1{
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 200;
 }
 
@@ -87,14 +87,13 @@ nav>ul>li.menu-item{
 }
 .container {
   margin: 120px 15% 0px 15%;
-
 }
 h1 {
   text-align: center;
   line-height: 1.3em;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 100;
 }
 h2 {
   font-family: Helvetica, sans-serif;
@@ -204,4 +203,22 @@ a:active {
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
+}
+div.main-banner {
+  z-index: -1;
+  /*border: 1px solid white;*/
+  position: relative;
+  left: -22%;
+  top: -20px;
+  width: 150%;
+  height: 600px;
+
+  background: url("http://www.planwallpaper.com/static/images/6790904-free-background-wallpaper.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div.main-text {
+  position: relative;
+  margin: auto;
+  color: white !important;
 }
